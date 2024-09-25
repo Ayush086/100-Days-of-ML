@@ -26,3 +26,29 @@
 12. Save Model (pickle)
 
 **NOTE:** *Attached python notebook contains the implementation*
+
+## Problem Framing
+**How to frame a problem statement in machine learning and how to build the solution for it ?**
+- Let's say Netflix wants to increase their revenue and thought about 3 solutions:
+      - new customer
+      - extra charges
+      - decrease frequency fo subscription cancellation (churn rate)
+- I want to decrease the churn rate (got the problem)
+- Now try to identify the type of the problem and it's end results of your solution whichever you thought about.
+- Immediate solution will be decreasing the rate of subscription plans for already subscribed members.
+- But that's not the perfect solution, we need to think more.
+- It became a classification problem now. We need to determine what's customer's problem ? Why are they leaving the platform ?
+- It may happen that subscription cancellation reason for every member isn't same.
+- So try to identify the reason on the basis of sentiments. like
+    - lack of content
+    - high pricing
+    - Bad UI
+    - user counts per subscription
+- Probability of willing to leave platform is different for every user (Now it became regression problem)
+- Now, try to find out existing solution for your current problem (means solutions from other organizations)
+- Data gathering, and understand it
+- Also research for user data like,
+  - browsing time
+  - content left in middle
+  - didn't find the searches
+- the more you dig the more you will understand the problem and the more accurate will be the solution. 
