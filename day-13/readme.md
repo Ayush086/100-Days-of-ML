@@ -34,3 +34,4 @@ As in this case relative ordering doesn't matters.
 - It may create confusions for ML alogorithm, usually they try to find patterns between them which may affect the performance and results.
 
 **NOTE: It's totally dependent on scenarion which encoding algorithm to use, you need to try out each one of the independently and compare the results and then move ahead**
+***I have performed each technique for better understanding, python notebooks containing code for the same is uploaded.***
