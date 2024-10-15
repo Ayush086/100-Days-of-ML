@@ -38,3 +38,5 @@ In Statistics, Normally distributed data makes calculation easiear and many Mach
 #### 3. Square/Square root Transform (X^2 / X^1/2)
 - X^2 Transform is mainly used for left skewed data.
 - sq. root transform is not used widely.
+
+**Practical Implementation of all the learnings is performed and code for the same is attached within jupyter notebook.**
