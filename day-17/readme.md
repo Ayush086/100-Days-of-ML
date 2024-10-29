@@ -1,7 +1,7 @@
 # Today's Learnings
 *Usually we prefer to have numerical data in our dataset. But sometimes we get more efficiency by using categorical data.*
 
-**Might be thinking how and why ?**
+**Might be thinking how and why ?**  
  Since we've learned that numerical data is processed faster and makes algorithms to understand data in better way.
 
 Let's understand this with an example,  
