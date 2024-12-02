@@ -7,7 +7,8 @@ eg. silent boy in class who doesn't talk much with anyone just busy in his own w
 In above example, the boy is part of class but he doesn't have same behavior (pattern) like others.
 Therefore, he will be act as a outlier who has different interests than other students.
 
-[ Image showcasing outliers ]
+![image](https://github.com/user-attachments/assets/8d01b14e-27a5-4cf8-b997-562cb73e1a1d)
+
 
 Generally they are ignored in datasets because of it's negligible impact on model.
 **But sometimes when each and every data point matters (eg. healthcare domain) they are analyzed properly.**
@@ -28,7 +29,18 @@ eg. if range = [A, B] => values less than A or greater than B will be neglected
 ***In many cases Trimming or Capping is only used.***
 
 ### Outlier Detection
-####1. Normally Distributed Data
+#### 1. Normally Distributed Data
 In mathematics, if data is normally distributed then 99% of data lies around it's mean within a range of 3 times the standard deviation. (as shown in below image)
 
-[ Image of normal distribution ]
+![image](https://github.com/user-attachments/assets/f3ef6413-3875-42bb-b627-bf38809d7900)
+
+**z-score method is used to remove outliers from data**  
+
+#### 2. Skewed Distributed Data  
+Data points are not symmetrically distributed around mean. Instead they tend to cluster more on one side of mean. (Left-Skewed/Right-Skewed).
+
+![image](https://github.com/user-attachments/assets/719b56f8-4712-496a-b587-4124a7ed78d4)
+
+**IQR method is used to handle removal of outliers in such cases**
+
+
