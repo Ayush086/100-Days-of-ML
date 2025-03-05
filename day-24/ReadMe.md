@@ -99,15 +99,16 @@ M =
 
 the transformed vector remains in the same direction.  
 
-#                                    &nbsp;&nbsp;&nbsp;&nbsp;               AV = λv  
+ # &nbsp;&nbsp;&nbsp;&nbsp;               AV = λv  
+
 where,
   A -> Matrix  
   V -> Eigen Vector  
   λ -> Eigen Value  
   v -> vector
 
-**Eigenvectors help in PCA** because they define the new axes along which the data is projected.  
 ---
+**Eigenvectors help in PCA because they define the new axes along which the data is projected.**
 
 ### **Final Thoughts**  
 - In PCA, Covariance Matrix is used as a matrix from above relation.  
