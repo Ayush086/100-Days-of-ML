@@ -22,3 +22,16 @@ Mathematially, Best fit line can be represented as:
 ## &ensp;&ensp;&ensp; y = mx + c
 
 Here, model's work is to find value of **m** and **c** such that the line is closest all the points in scatter plot.
+
+***In ML, there are multiple ways to find out the value of ```m``` and ```c```. It totally depends on the data and problem statement which method to choose.***  
+### Methods
+#### 1. Closed Form
+- Using Quadratic Equation Formula:  
+  &ensp; x = (-b ± √(b² - 4ac)) / 2a
+  
+- Ordinary Least Score (OLS):
+  &ensp; This method is implemented in scikit-learn library.
+
+#### 2. Non-Closed Form
+- Gradient Descent:
+   Usually used when dealing with complex data and commonly used in deep learning models. In higher dimensioned data OLS method doesn't work.
