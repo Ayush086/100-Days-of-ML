@@ -14,7 +14,7 @@ Therefore,``` Error(E) = d1 + d2 + d3 + .... + dn```
 It may be possible that d_i is negative and we are trying to concentrate on magnitude only. That's why we are going to square it up.
 
 ```E = d1^2 + d2^2 + ... + dn^2```  
-&ensp;&ensp; **E = Σd_i**  -- *Loss Function (J) / Error Function*
+&ensp;&ensp; ```**E = Σd_i**```  -- *Loss Function (J) / Error Function*
 
 So, now we need to find such value of ```m``` and ```c``` which will be used to minimize E.
 
@@ -22,9 +22,9 @@ since,
 &ensp; ```D_i = Y_i - ŷ_i```  { actual_distance - predicted_distance }  
 
 therefore,  
-&ensp; **E = Σ(Y_i - ŷ_i)^2**
-After reframing equation,
-&ensp;&ensp; ***E = Σ(Y_i - mx_i - b)^2*** -- Final Equation
+&ensp; ```**E = Σ(Y_i - ŷ_i)^2**```  
+After reframing equation,  
+##### ```E = Σ(Y_i - mx_i - b)^2``` -- Final Equation
 
 Above equation is totally dependent on ```m``` and ```b``` only.
 
@@ -34,13 +34,13 @@ Since, at maxima and minima any which is differentiable has their 1st order deri
 So, to minimize the error we are going to find partial differentiation of E at 2 cases
 ##### 1. While ```m``` is constant
 After performing partial differentiation on Final Equation. we get,
-&ensp;&ensp;**b = Y_bar - mX_bar** -- eqn-1
+&ensp;&ensp;```**b = Y_bar - mX_bar**``` -- eqn-1
 
-; y_bar = (Σy_i) / n & x_bar = (Σx_i) / n
+; ```y_bar = (Σy_i) / n``` & ```x_bar = (Σx_i) / n```
 
 ##### 2. While ```b``` is constant
 After performing partial differentiation on Final Equation. we get,
-&ensp;&ensp;**m = Σ {(y_i - Y_bar)(x_i - X_bar) / Σ(x_i - X_bar)^2}** -- eqn-2
+&ensp;&ensp;```**m = Σ {(y_i - Y_bar)(x_i - X_bar) / Σ(x_i - X_bar)^2}**``` -- eqn-2
 
 
 Finally, we got the values to calculate ```m``` and ```b```.
@@ -56,4 +56,4 @@ Finally, we got the values to calculate ```m``` and ```b```.
 
 ### It's Important to NOTE that if any of the above assumption isn't satisfied then Linear Regression will not work on that dataset
 
-***I have attached the python notebook in which I have implemented OLS method from scratch***
+***I have attached the ![python notebook](./code-from-scratch.ipynb) in which I have implemented OLS method from scratch***
