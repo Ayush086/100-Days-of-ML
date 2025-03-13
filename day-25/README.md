@@ -35,3 +35,6 @@ Here, model's work is to find value of **m** and **c** such that the line is clo
 #### 2. Non-Closed Form
 - Gradient Descent:
    Usually used when dealing with complex data and commonly used in deep learning models. In higher dimensioned data OLS method doesn't work.
+
+
+***Attached a [python notebook](./linear-regression.ipynb) where i have trained a basic LR model.***
