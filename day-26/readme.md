@@ -56,4 +56,4 @@ Finally, we got the values to calculate ```m``` and ```b```.
 
 ### It's Important to NOTE that if any of the above assumption isn't satisfied then Linear Regression will not work on that dataset
 
-***I have attached the ![python notebook](./code-from-scratch.ipynb) in which I have implemented OLS method from scratch***
+***I have attached the [python notebook](./code-from-scratch.ipynb) in which I have implemented OLS method from scratch***
