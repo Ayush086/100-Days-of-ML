@@ -1,7 +1,7 @@
 # Today's Learnings
  **How ML models run on servers ?**
 
- ## Batch/Offline ML
+## Batch/Offline ML
  - *In this type of learning model is trained on static data (dataset) and performs operations based on the training data.*
  - Whole data is feed at one time for the training, before deployment all the training process is performed and then it's deployed on servers.
  - Also called as static model.
