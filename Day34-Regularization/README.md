@@ -17,15 +17,15 @@ It's a technique which is used to decrease the overfitting in ML model by adding
 Let's assume we are working with Linear Regression model.  
 We know, overfitting is directly dependent upon the slope value (m).  
 
-Usually, (without regularization)
+Usually, (without regularization)  
 L = ∑(y_i - Y_i)^2
 
 In regularization,  
 L = ∑(y_i - Y_i)^2 + λ(m^2)  
 
-y_i --> actual value
-Y_i --> Predicted value
-λ --> regularization hyperparameter
+y_i --> actual value  
+Y_i --> Predicted value  
+λ --> regularization hyperparameter  
 m --> slope
 
 **Due to the addition of extra term loss decreases and overfitting is prevented**
